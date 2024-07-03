@@ -1,0 +1,33 @@
+import pandas as pd
+import numpy as np
+import os
+import re
+
+save_to="ceac_pkl"
+folder_name = "downloads"
+current_directory = os.getcwd()
+
+year_pattern = re.compile(r"(\d+)")
+#save folder setup
+save_folder_path = os.path.join(current_directory,save_to)
+# Create the folder if it does not exist
+if not os.path.exists(save_folder_path):
+    os.makedirs(save_folder_path)
+    
+
+full_dir_path = os.path.join(current_directory, folder_name)
+for entry in os.scandir(full_dir_path):
+    if entry.name.endswith('.csv') and entry.is_file():
+        ceac=pd.read_csv(entry)
+        # Reduce memory occuspied by numeric columns, 8 bits instead of 64bits
+        numeric_cols=['Issued','AP','Ready','Refused','Refused221g','InTransit','Transfer','NVC']
+        ceac[numeric_cols]=ceac[numeric_cols].astype(np.int8)
+        # Category columns
+        category_cols=['region','status']
+        ceac[category_cols]=ceac[category_cols].astype('category')
+        # remove duplicate entries
+        ceac.drop_duplicates(inplace=True)
+        #Save cleaned df
+        year=year_pattern.search(entry).group(1)
+        save_file_name=os.path.join(current_directory,f'cleaned_Ceac_{year}.pkl')
+        ceac.to_pickle(save_file_name)

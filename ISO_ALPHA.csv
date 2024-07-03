@@ -1,0 +1,150 @@
+consulate,capital,country,iso_alpha
+ABD, Abu Dhabi,United Arab Emirates,ARE
+ABJ, Abidjan,Cote d'Ivoire,CIV
+ACC, Accra,Ghana,GHA
+ACK, Auckland,New Zealand,NZL
+ADD, Addis Ababa,Ethiopia,ETH
+AKD, Ashgabat,Turkmenistan,TKM
+ALG, Algiers,Algeria,DZA
+AMM, Amman,Jordan,JOR
+AMS, Amsterdam,Netherlands,NLD
+ANK, Ankara,Turkey,TUR
+ANT, Antananarivo,Madagascar,MDG
+ASM, Asmara,Eritrea,ERI
+ASN, Asuncion,Paraguay,PRY
+ATA, Almaty,Kazakhstan,KAZ
+ATH, Athens,Greece,GRC
+BCH, Bucharest,Romania,ROU
+BDP, Budapest,Hungary,HUN
+BEN, Bern,Switzerland,CHE
+BGH, Baghdad,Iraq,IRQ
+BGI, Bangui,Central African Republic,CAF
+BGN, Bridgetown,Barbados,BRB
+BGT, Bogota,Colombia,COL
+BKK, Bishkek,Kyrgyzstan,KGZ
+BLG, Belgrade,Serbia,SRB
+BLZ, Belmopan,Belize,BLZ
+BMB, Mumbai,India,IND
+BNK, Bangkok,Thailand,THA
+BNS, Buenos Aires,Argentina,ARG
+BRS, Brussels,Belgium,BEL
+BRT, Beirut,Lebanon,LBN
+BRZ, Brazzaville,Republic of the Congo,COG
+BTS, Bratislava,Slovakia,SVK
+BUJ, Bujumbura,Burundi,BDI
+CDJ, Ciudad Juarez,Mexico,MEX
+CHS, Chisinau,Moldova,MDA
+CLM, Colombo,Sri Lanka,LKA
+COT, Cotonou,Benin,BEN
+CPN, Copenhagen,Denmark,DNK
+CRO, Cairo,Egypt,EGY
+CRS, Caracas,Venezuela,VEN
+CSB, Casablanca,Morocco,MAR
+DBL, Dublin,Ireland,IRL
+DHB, Dushanbe,Tajikistan,TJK
+DHK, Dhaka,Bangladesh,BGD
+DJI, Djibouti,Djibouti,DJI
+DKR, Dakar,Senegal,SEN
+DMS, Damascus,Syria,SYR
+DOH, Doha,Qatar,QAT
+DRS, Dar es Salaam,Tanzania,TZA
+FRN, Frankfurt,Germany,DEU
+FTN, Freetown,Sierra Leone,SLE
+GEO, Georgetown,Guyana,GUY
+GTM, Guatemala City,Guatemala,GTM
+GUZ, Guangzhou,China,CHN
+GYQ, Guayaquil,Ecuador,ECU
+HAV, Havana,Cuba,CUB
+HCM, Ho Chi Minh City,Vietnam,VNM
+HLS, Helsinki,Finland,FIN
+HML, Hamilton,Bermuda,BMU
+HNK, Hong Kong,China,CHN
+HRE, Harare,Zimbabwe,ZWE
+ISL, Islamabad,Pakistan,PAK
+JAK, Jakarta,Indonesia,IDN
+JHN, Johannesburg,South Africa,ZAF
+JRS, Jerusalem,Israel,ISR
+KBL, Kabul,Afghanistan,AFG
+KDU, Kathmandu,Nepal,NPL
+KEV, Kyiv,Ukraine,UKR
+KGL, Kigali,Rwanda,RWA
+KHT, Khartoum,Sudan,SDN
+KIN, Kinshasa,Democratic Republic of the Congo,COD
+KLL, Kuala Lumpur,Malaysia,MYS
+KMP, Kampala,Uganda,UGA
+KNG, Kingston,Jamaica,JAM
+KWT, Kuwait,Kuwait,KWT
+LGS, Lagos,Nigeria,NGA
+LIB, Libreville,Gabon,GAB
+LIL, Lilongwe,Malawi,MWI
+LJU, Ljubljana,Slovenia,SVN
+LMA, Lima,Peru,PER
+LND, London,United Kingdom,GBR
+LOM, Lome,Togo,TGO
+LPZ, La Paz,Bolivia,BOL
+LUA, Luanda,Angola,AGO
+LUS, Lusaka,Zambia,ZMB
+MDD, Madrid,Spain,ESP
+MNA, Manama,Bahrain,BHR
+MNG, Managua,Nicaragua,NIC
+MNL, Manila,Philippines,PHL
+MOS, Moscow,Russia,RUS
+MRV, Monrovia,Liberia,LBR
+MST, Muscat,Oman,OMN
+MTL, Montreal,Canada,CAN
+MTV, Montevideo,Uruguay,URY
+NCS, Nicosia,Cyprus,CYP
+NHA, Naha,Japan,JPN
+NMY, Niamey,Niger,NER
+NPL, Naples,Italy,ITA
+NRB, Nairobi,Kenya,KEN
+NSS, Nassau,Bahamas,BHS
+NWD, New Delhi,India,IND
+OSL, Oslo,Norway,NOR
+OUG, Ouagadougou,Burkina Faso,BFA
+PHP, Phnom Penh,Cambodia,KHM
+PIA, Praia,Cape Verde,CPV
+PNM, Panama City,Panama,PAN
+PRG, Prague,Czech Republic,CZE
+PRI, Pristina,Kosovo,UNK
+PRM, Paramaribo,Suriname,SUR
+PRS, Paris,France,FRA
+PTM, Port Moresby,Papua New Guinea,PNG
+PTP, Port-au-Prince,Haiti,HTI
+PTS, Port Of Spain,Trinidad and Tobago,TTO
+RDJ, Rio De Janeiro,Brazil,BRA
+RGA, Riga,Latvia,LVA
+RID, Riyadh,Saudi Arabia,SAU
+RKJ, Reykjavik,Iceland,ISL
+RNG, Rangoon,Burma,BUR
+SAA, Sanaa,Yemen,YEM
+SAR, Sarajevo,Bosnia and Herzegovina,BIH
+SDO, Santo Domingo,Dominican Republic,DOM
+SEO, Seoul,South Korea,KOR
+SGP, Singapore,Singapore,SGP
+SKO, Skopje,Macedonia,MKD
+SNJ, San José,Costa Rica,CRI
+SNT, Santiagoi,Chile,CHL
+SNS, San Salvador,El Salvador,SLV
+SOF, Sofia,Bulgaria,BGR
+STK, Stockholm,Sweden,SWE
+SUV, Suva,Fiji,FJI
+SYD, Sydney,Australia,AUS
+TAI, Taipei,Taiwan,TWN
+TAL, Tallinn,Estonia,EST
+TBL, Tbilisi,Georgia,GEO
+TGG, Tegucigalpa,Honduras,HND
+THT, Tashkent,Uzbekistan,UZB
+TIA, Tirana,Albania,ALB
+TKY, Tokyo,Japan,JPN
+TNS, Tunis,Tunisia,TUN
+TLV, Tel Aviv,Isreal,ISR
+ULN, Ulaanbaatar,Mongolia,MNG
+VAC, Vancouver,Canada,CAN
+VIL, Vilnius,Lithuania,LTU
+VNN, Vienna,Austria,AUT
+VNT, Vientiane,Laos,LAO
+WRW, Warsaw,Poland,POL
+YDE, Yaounde,Cameroon,CMR
+YRV, Yerevan,Armenia,ARM
+ZGB, Zagreb,Croatia,HRV
