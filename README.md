@@ -29,12 +29,12 @@ to the current fiscal year.
 -Jupyter notebook documenting the data analysis of the CEAC data for any given year, including plots (*Ceac_2023_analysis_II.ipynb*)
 - Geo-data (ISO codes) of the participating embassies in  the DV-Lottery stored at *examples/ISO_ALPHA.csv*, and required to generate the choropleth plot in *Ceac_2023_analysis_II.ipynb*.
 - Jupyter notebook documenting the steps required to generate a summary of the CEAC data from the year 2013 to the present year, containing key KPIs. (*Historical_CEAC_analysis.ipynb*)
--Jupyter notebook documenting the steps required to generate an area plot showing the relative distribution of status across case numbers per region. (*preparing_area_region_chart.ipynb*).
--Jupyter notebook documenting the steps required to generate an area plot showing the relative distribution of status across case numbers per consulate (*preparing_embassy_case_area_plot.ipynb*).
--Jupyter notebook documenting the steps required to generate a bar chart showing the proportion of issued visas to cases for each consulate (*preparing_embassy_bar_chart.ipynb*).
--Jupyter notebook documenting the steps required to generate a bar chart showing the relative distribution of various statuses between regions. (*preparing_regional_bar_graph.ipynb*).
--Jupyter notebook documenting the steps required to generate a choropleth chart showing the relative distribution of derivatives (accompanying cases) between regions. (*preparing_global_derivative_chart.ipynb*).
--Jupyter notebook documenting the steps required to generate a bar chart showing the relative distribution of holes (disqualified cases) between regions. (*preparing_regional_holes_graph.ipynb*).
+- Jupyter notebook documenting the steps required to generate an area plot showing the relative distribution of status across case numbers per region. (*preparing_area_region_chart.ipynb*).
+- Jupyter notebook documenting the steps required to generate an area plot showing the relative distribution of status across case numbers per consulate (*preparing_embassy_case_area_plot.ipynb*).
+- Jupyter notebook documenting the steps required to generate a bar chart showing the proportion of issued visas to cases for each consulate (*preparing_embassy_bar_chart.ipynb*).
+- Jupyter notebook documenting the steps required to generate a bar chart showing the relative distribution of various statuses between regions. (*preparing_regional_bar_graph.ipynb*).
+- Jupyter notebook documenting the steps required to generate a choropleth chart showing the relative distribution of derivatives (accompanying cases) between regions. (*preparing_global_derivative_chart.ipynb*).
+- Jupyter notebook documenting the steps required to generate a bar chart showing the relative distribution of holes (disqualified cases) between regions. (*preparing_regional_holes_graph.ipynb*).
 
 ## Installation
 - Install a virtual environment manager:
