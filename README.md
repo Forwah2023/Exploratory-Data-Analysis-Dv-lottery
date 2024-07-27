@@ -31,9 +31,9 @@ to the current fiscal year.
 - Jupyter notebook documenting the steps required in generating a summary of the CEAC data from the year 2013 to the recent year, containing key KPIs. (*Historical_CEAC_analysis.ipynb*)
 
 ## Installation
-- Create a virtual environment:
+- Install a virtual environment manager:
   `pip install virtualenv`
-- Activate the virtual environment:
+- Create and activate the virtual environment:
  `virtualenv venv`
 - Install notebook requirements:
   `pip install -r requirements_notebook.txt`
