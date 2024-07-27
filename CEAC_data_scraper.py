@@ -135,11 +135,8 @@ def download_pdf(url,html,folder=new_folder_path):
     if anchor_list:
         #take the third element of the achor list, corresponding to the latest CSV file. NOTE that for DV-2015, this element is located at index 3
         anchor=anchor_list[2]
-        if anchor.get('rawdownload'):
-            rawdownload_attribute = tree.xpath("//div[@class='col-lg-12']/a/@rawdownload")[0].textContent
-        else:
-            abs_link = urljoin(url,anchor.get('href'))
-            rawdownload_attribute= abs_link
+        abs_link = urljoin(url,anchor.get('href'))
+        rawdownload_attribute= abs_link
         """
         Download csv file from link and save to folder
         """
@@ -156,7 +153,7 @@ def download_pdf(url,html,folder=new_folder_path):
             # Write the content of the response to a binary file
             with open(file_path, "wb") as f:
                 f.write(response.content)
-                print("Writing:",f.name)
+                print("Writing:",f.name, " from ",rawdownload_attribute)
             # Return the file path
             return file_path
         else:
