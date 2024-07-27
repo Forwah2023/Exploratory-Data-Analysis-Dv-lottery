@@ -39,3 +39,4 @@ for entry in os.scandir(full_dir_path):
         year=year_pattern.search(entry.name).group(1)
         save_file_name=os.path.join(save_folder_path ,f'cleaned_Ceac_{year}.pkl')
         ceac.to_pickle(save_file_name)
+        print("cleaned",entry.name)
