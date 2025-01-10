@@ -7,7 +7,7 @@ save_to="ceac_pkl"
 folder_name = "downloads"
 current_directory = os.getcwd()
 
-year_pattern = re.compile(r"(\d+)")
+year_pattern = re.compile(r"(\d{4})")
 #save folder setup
 save_folder_path = os.path.join(current_directory,save_to)
 # Create the folder if it does not exist
@@ -39,4 +39,4 @@ for entry in os.scandir(full_dir_path):
         year=year_pattern.search(entry.name).group(1)
         save_file_name=os.path.join(save_folder_path ,f'cleaned_Ceac_{year}.pkl')
         ceac.to_pickle(save_file_name)
-        print("cleaned",entry.name)
+        print("cleaned:",entry.name)
