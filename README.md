@@ -1,7 +1,7 @@
 # Exploratory Data Analysis Of Dv-lottery data.
 
 This project is a collection of scripts and Jupyter notebooks I used to prepare and analyse the CEAC data. The CEAC data is
-information about the annual DV-Lottery program run by the U.S. government. This scraped data was obtained from  the website https://dvcharts.xarthisius.xyz/. The results of my analysis and plots are hosted on my website. 
+information about the annual DV-Lottery program the U.S. government runs. This scraped data was obtained from  the website https://dvcharts.xarthisius.xyz/. The results of my analysis and plots are hosted on my website. 
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ information about the annual DV-Lottery program run by the U.S. government. This
  Every year, the U.S. government publishes information on the selectees of the Dv-lottery program for the current fiscal year. This data is 
  regularly scraped and analysed by the owner of https://dvcharts.xarthisius.xyz/. However, I believe there is more to explore about the data 
  that is currently hosted on that website. This project's objectives are two-fold: first, I wish to document the steps I used in reproducing 
- all the plots hosted on the aforementioned site, and second, to go beyond the existing plots and provide more insightful details on the data
+ all the plots hosted on the site mentioned above, and second, to go beyond the existing plots and provide more insightful details on the data
  using advanced plotting frameworks and graphs. I mainly use Pnadas for data manipulation and Plotly for graphs.
 
 ## Features
@@ -28,7 +28,13 @@ to the current fiscal year.
 - Jupyter notebook documenting the cleaning and transformation of the CEAC data (*Ceac_Cleaning.ipynb*).
 -Jupyter notebook documenting the data analysis of the CEAC data for any given year, including plots (*Ceac_2023_analysis_II.ipynb*)
 - Geo-data (ISO codes) of the participating embassies in  the DV-Lottery stored at *examples/ISO_ALPHA.csv*, and required to generate the choropleth plot in *Ceac_2023_analysis_II.ipynb*.
-- Jupyter notebook documenting the steps required in generating a summary of the CEAC data from the year 2013 to the recent year, containing key KPIs. (*Historical_CEAC_analysis.ipynb*)
+- Jupyter notebook documenting the steps required to generate a summary of the CEAC data from the year 2013 to the present year, containing key KPIs. (*Historical_CEAC_analysis.ipynb*)
+- Jupyter notebook documenting the steps required to generate an area plot showing the relative distribution of status across case numbers per region. (*preparing_area_region_chart.ipynb*).
+- Jupyter notebook documenting the steps required to generate an area plot showing the relative distribution of status across case numbers per consulate (*preparing_embassy_case_area_plot.ipynb*).
+- Jupyter notebook documenting the steps required to generate a bar chart showing the proportion of issued visas to cases for each consulate (*preparing_embassy_bar_chart.ipynb*).
+- Jupyter notebook documenting the steps required to generate a bar chart showing the relative distribution of various statuses between regions. (*preparing_regional_bar_graph.ipynb*).
+- Jupyter notebook documenting the steps required to generate a choropleth chart showing the relative distribution of derivatives (accompanying cases) between regions. (*preparing_global_derivative_chart.ipynb*).
+- Jupyter notebook documenting the steps required to generate a bar chart showing the relative distribution of holes (disqualified cases) between regions. (*preparing_regional_holes_graph.ipynb*).
 
 ## Installation
 - Install a virtual environment manager:
